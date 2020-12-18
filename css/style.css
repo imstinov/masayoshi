@@ -102,21 +102,16 @@ input, select {
 }
 
 
-.link {
-  margin: 20px;
-  width: 200px;
-  display: block;
-  padding: 5px 20px; /* 上下に5px、左右に20px */
-  font-size: 14px;
-  color: #d7ba7b;
-  text-decoration: none; /* テキストのスタイルを消す */
-  cursor: pointer;
-  border: 1px #d7ba7b solid; /* 境界線を引く */
-  border-radius: 3px; /* 要素の角を丸くする */
-  transition: 0.4s ease; /* スタイルが変化する時間 */
+ul {
+  width: 200px; /* 幅200px */
+  padding: 10px 30px; /* 上下10px　左右30px */
+  color: #333;
+  background: #fbfbf6; /* 背景クリーム色 */
+  border: solid 3px gray;
+  border-radius: 10px;
 }
 
-.link:hover {
-  color: #fff;
-  background: #d7ba7b;
+li {
+  padding: 10px 0;
+  line-height: 1.5em; /* １行の文字の高さfont-sizeの1.5倍 */
 }
