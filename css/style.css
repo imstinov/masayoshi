@@ -101,17 +101,27 @@ input, select {
     vertical-align:middle;
 }
 
+div{
+  width: 300px;
+  border: 1px solid #e9eaea;
+  padding: 20px 12px 10px;
 
-ul {
-  width: 200px; /* 幅200px */
-  padding: 10px 30px; /* 上下10px　左右30px */
-  color: #333;
-  background: #fbfbf6; /* 背景クリーム色 */
-  border: solid 3px gray;
-  border-radius: 10px;
 }
 
-li {
+h3,p{
+  margin: 0;
+}
+p{
   padding: 10px 0;
-  line-height: 1.5em; /* １行の文字の高さfont-sizeの1.5倍 */
+  font-size: 14px;
 }
+
+a{
+  
+  display: block;
+  text-align:center;
+  margin:10px 0;
+  font-size:14px;
+  color:#d7b071;
+  text-decoration: none;
+  　　}
