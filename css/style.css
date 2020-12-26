@@ -130,5 +130,19 @@ input, select {
 
 .eyecatch{
     height: 600px;
-    background-image: url(../img/bg1.jpg) repeat;
+    background-image: url(../img/bg1.jpg) ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    }
+
+.eyecatch p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 100px;
+    color: #ccc;
+    line-height: 1;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
 }
