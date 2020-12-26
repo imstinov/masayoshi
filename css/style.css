@@ -110,14 +110,14 @@ input, select {
 }
 
 .header-logo{
-  color: #f2f2f2;
+  color:red;
   font-size: 20px;
   font-weight: bold;
   margin-left: 35px;
   line-height: 70px;
 }
 
-header-nav ul{
+.header-nav {
     display: flex;
 }
 .header-nav li {
@@ -126,4 +126,9 @@ header-nav ul{
 }
 .header-nav a {
   color: #f2f2f2;
+}
+
+.eyecatch{
+    height: 600px;
+    background-image: url(../img/bg1.jpg) repeat;
 }
