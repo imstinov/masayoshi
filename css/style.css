@@ -138,6 +138,7 @@ input, select {
 
 .eyecatch p{
     position: absolute;
+    
     top: 50%;
     left: 50%;
     font-size: 100px;
@@ -145,4 +146,15 @@ input, select {
     line-height: 1;
     font-weight: bold;
     transform: translate(-50%, -50%);
+
+}
+
+.about{
+    width: 80%;
+}
+.about-wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
