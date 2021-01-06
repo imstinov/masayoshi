@@ -151,10 +151,48 @@ input, select {
 
 .about{
     width: 80%;
+    margin:0 auto 50px ;
 }
 .about-wrap{
     display: flex;
     justify-content: space-around;
     align-items: center;
 
+}
+.about-left,
+.about-right{
+    width: 45%;
+}
+.about-left img{
+    display: block;
+    width: 100%;
+}
+ .about .section-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 30px 0;
+  text-align: center;
+      
+
+
+}
+.about-right h3,
+.about-right p   {
+    margin-bottom: 20px;
+}
+
+
+.about-right ol{
+    margin-top: 100px;
+    position: relative;
+    left: 25px;
+       list-style-position: outside;  
+
+} 
+
+
+
+.business-cat img{
+    width: 200px;
+    height: 100px;
 }
